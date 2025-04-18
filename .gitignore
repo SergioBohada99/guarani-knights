@@ -1,0 +1,33 @@
+# Bytecode y cachés de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Archivos de entorno virtual (si está en la carpeta del proyecto)
+.venv/
+env/
+venv/
+
+# Configuración de Jupyter y cachés
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de salida o generados
+*.html              # guarini.html
+*.csv               # rutas exportadas si las generas
+*.log
+*.tmp
+*.bak
+
+# Entornos o tokens
+.env
